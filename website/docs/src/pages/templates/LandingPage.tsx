@@ -35,10 +35,8 @@ type MiniTemplateCardProps = {
 };
 
 const footerProps = {
-  logoDark:
-    'https://res.cloudinary.com/do2tmd6xp/image/upload/v1745059611/uignite/dtst2deim1sgv2g5dcm6.png',
-  logoLight:
-    'https://res.cloudinary.com/do2tmd6xp/image/upload/v1745059611/uignite/gzfqtahpfc93ybugfiwr.png',
+  logoDark: '/chaicode-black.png',
+  logoLight: '/chaicode-white.png',
   tagline: 'Home for programmers',
   socialLinks: [
     {
@@ -146,7 +144,7 @@ export const LandingPage = () => {
   const [isPause, setPause] = useState(false);
   const testimonials = [
     {
-      imageSrc: 'https://res.cloudinary.com/do2tmd6xp/image/upload/q_70/v1745059613/uignite/zablzf9i4csffqvlzy76.png',
+      imageSrc: '/hitesh-sir.png',
       name: 'Hitesh Choudhary',
       title: 'Founder of ChaiCode',
       message:
@@ -154,7 +152,7 @@ export const LandingPage = () => {
       rating: 5,
     },
     {
-      imageSrc: 'https://res.cloudinary.com/do2tmd6xp/image/upload/q_70/v1745059612/uignite/intr9ojetxf32pehtnar.png',
+      imageSrc: '/piyush-sir.png',
       name: 'Piyush Garg',
       title: 'Co-founder of OnlyFans',
       message:
@@ -162,7 +160,7 @@ export const LandingPage = () => {
       rating: 5,
     },
     {
-      imageSrc: 'https://res.cloudinary.com/do2tmd6xp/image/upload/q_70/v1745059613/uignite/b1eotihxzahyjw91uz1i.png',
+      imageSrc: '/anirudh-sir.png',
       name: 'Anirudh Jwala',
       title: 'Gareebo Ko Books Dene Wala',
       message:
@@ -170,7 +168,7 @@ export const LandingPage = () => {
       rating: 5,
     },
     {
-      imageSrc: 'https://res.cloudinary.com/do2tmd6xp/image/upload/q_70/v1745059612/uignite/tkq3lcujr8m9r1eemu4k.png',
+      imageSrc: '/mukul-sir.png',
       name: 'Mukul Padwal',
       title: `Everyone's Favourite TA`,
       message:
@@ -178,7 +176,7 @@ export const LandingPage = () => {
       rating: 5,
     },
     {
-      imageSrc: 'https://res.cloudinary.com/do2tmd6xp/image/upload/q_70/v1745059612/uignite/mfwshi7elmim6aqidhgd.png',
+      imageSrc: '/manu-sir.png',
       name: 'Manu Arora',
       title: 'Founder of Aceternity',
       message:
@@ -186,7 +184,7 @@ export const LandingPage = () => {
       rating: 5,
     },
     {
-      imageSrc: 'https://res.cloudinary.com/do2tmd6xp/image/upload/q_70/v1745059611/uignite/no0t2oerr258iefbhxjx.png',
+      imageSrc: '/vinayak-sir.png',
       name: 'Vinayak Sarawagi',
       title: 'Founder of IntentJS',
       message:
@@ -198,8 +196,8 @@ export const LandingPage = () => {
     <div className=" bg-gradient-to-b from-black to-zinc-900 text-white min-h-screen">
       {/* Navbar */}
       <Navbar
-        darkModeLogo="https://res.cloudinary.com/do2tmd6xp/image/upload/v1745059611/uignite/dtst2deim1sgv2g5dcm6.png"
-        lightModoLogo="https://res.cloudinary.com/do2tmd6xp/image/upload/v1745059611/uignite/gzfqtahpfc93ybugfiwr.png"
+        darkModeLogo="/chaicode-black.png"
+        lightModoLogo="/chaicode-white.png"
         navbarLinks={[
           {name: 'Cohorts', link: '/'},
           {name: 'Udemy', link: '/'},
@@ -212,9 +210,9 @@ export const LandingPage = () => {
       />
       <MessageBot
         orgName="UIgnite"
-        orgLogo="https://res.cloudinary.com/do2tmd6xp/image/upload/v1745059611/uignite/dtst2deim1sgv2g5dcm6.png"
+        orgLogo="/dark-mode-logo.png"
         themeColor="bg-orange-600"
-        url="https://res.cloudinary.com/do2tmd6xp/image/upload/v1745059611/uignite/dtst2deim1sgv2g5dcm6.png"
+        url="/dark-mode-logo.png"
         alt="Bot avatar"
       />
 
@@ -320,7 +318,7 @@ export const LandingPage = () => {
           <Card className="rounded-2xl shadow-md overflow-hidden w-full max-w-md mx-auto bg-zinc-100 dark:bg-zinc-900">
             <div className="aspect-video">
               <img
-                src="https://res.cloudinary.com/do2tmd6xp/image/upload/q_70/v1745145552/uignite/atszynftsed74g9ihwxv.jpg"
+                src="/devops.webp"
                 alt="DevOps for Developers"
                 className="object-cover w-full h-full rounded"
               />
@@ -366,7 +364,7 @@ export const LandingPage = () => {
           <Card className="rounded-2xl shadow-md overflow-hidden w-full max-w-md mx-auto bg-zinc-100 dark:bg-zinc-900">
             <div className="aspect-video">
               <img
-                src="https://res.cloudinary.com/do2tmd6xp/image/upload/q_70/v1745145552/uignite/bfrcgrbospz5iparldlk.jpg"
+                src="/genai.webp"
                 alt="GenAI with Python"
                 className="object-cover w-full h-full rounded"
               />

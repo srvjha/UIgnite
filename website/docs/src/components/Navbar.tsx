@@ -38,8 +38,8 @@ function MainNavbar() {
             <img
               src={
                 theme === 'light'
-                  ? 'https://res.cloudinary.com/do2tmd6xp/image/upload/q_70/v1745059611/uignite/myjfxbyt80uuxvkbpjqu.png'
-                  : 'https://res.cloudinary.com/do2tmd6xp/image/upload/q_70/v1745059613/uignite/xfj6lgzo51ov1nv6bben.png'
+                  ? '/light-mode-logo.png'
+                  : '/dark-mode-logo.png'
               }
               alt="Logo"
               className="w-32 object-contain cursor-pointer"
@@ -136,8 +136,8 @@ function MainNavbar() {
   ) : (
     <Navbar
       className="py-3 bg-transparent dark:bg-transparent"
-      darkModeLogo="https://res.cloudinary.com/do2tmd6xp/image/upload/v1745059611/uignite/dtst2deim1sgv2g5dcm6.png"
-      lightModoLogo="https://res.cloudinary.com/do2tmd6xp/image/upload/v1745059611/uignite/gzfqtahpfc93ybugfiwr.png"
+      darkModeLogo="/dark-mode-logo.png"
+      lightModoLogo="/light-mode-logo.png"
       navbarLinks={[
         {name: 'Cohorts', link: '/'},
         {name: 'Udemy', link: '/'},

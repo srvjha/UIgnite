@@ -122,7 +122,7 @@ export default function DashboardPage() {
       >
         <div className="flex items-center justify-between h-16 px-6 border-b border-zinc-800">
           <img
-            src="https://res.cloudinary.com/do2tmd6xp/image/upload/v1745059613/uignite/xfj6lgzo51ov1nv6bben.png"
+            src="/dark-mode-logo.png"
             alt=""
             className="h-10 w-auto"
           />
